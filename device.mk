@@ -330,6 +330,9 @@ PRODUCT_PACKAGES += \
     libsqlite.vendor \
     liblz4.vendor
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # Network
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
