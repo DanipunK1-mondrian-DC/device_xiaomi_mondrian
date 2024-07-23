@@ -479,11 +479,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
-
-# Shim for miui camera
-PRODUCT_PACKAGES += \
-    libgui_shim_miuicamera
-
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
