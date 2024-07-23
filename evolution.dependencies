@@ -25,6 +25,12 @@
     },
     { 
         "remote"       : "github",
+        "repository"   : "AOSPA/android_device_qcom_common",
+        "target_path"  : "device/qcom/common",
+        "branch"       : "uvite"
+    },
+    { 
+        "remote"       : "github",
         "repository"   : "flakeforever/device_xiaomi_sepolicy",
         "target_path"  : "device/xiaomi/sepolicy",
         "branch"       : "udc"
